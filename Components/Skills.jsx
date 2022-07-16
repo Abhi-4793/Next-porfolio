@@ -10,14 +10,39 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I have Learned </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <Skills_path name="HTML" image_name="html" />
-          <Skills_path name="CSS" image_name="css" />
-          <Skills_path name="JavaScript" image_name="javascript" />
-          <Skills_path name="GitHub" image_name="github1" />
-          <Skills_path name="MongoDB" image_name="mongo" />
-          <Skills_path name="Tailwind" image_name="tailwind" />
-          <Skills_path name="React" image_name="react" />
-          <Skills_path name="Next" image_name="nextjs" />
+          <Skills_path
+            name="HTML"
+            image_url="https://i.imgur.com/oC19wHq.png"
+          />
+          <Skills_path name="CSS" image_url="https://i.imgur.com/3z7x5sf.png" />
+          <Skills_path
+            name="JavaScript"
+            image_url="https://i.imgur.com/Qlexvfe.png"
+          />
+          <Skills_path
+            name="GitHub"
+            image_url="https://i.imgur.com/VhY4Q1g.png"
+          />
+          <Skills_path
+            name="MongoDB"
+            image_url="https://i.imgur.com/mXZSbjb.png"
+          />
+          <Skills_path
+            name="Tailwind"
+            image_url="https://i.imgur.com/bDwSfmA.png"
+          />
+          <Skills_path
+            name="React"
+            image_url="https://i.imgur.com/pMIH6n1.png"
+          />
+          <Skills_path
+            name="Next"
+            image_url="https://i.imgur.com/29SklkP.png"
+          />
+          <Skills_path
+            name="Node"
+            image_url="https://i.imgur.com/g82GwII.png"
+          />
         </div>
       </div>
     </div>

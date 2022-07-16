@@ -11,12 +11,12 @@ const Projects = () => {
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectList
           title="Watchlist App"
-          backgroundImg="watchlist"
+          backgroundImg="https://i.imgur.com/Uz8KEVF.png"
           projecturl="/Watchlist"
         />
         <ProjectList
           title="football list"
-          backgroundImg="football_list"
+          backgroundImg="https://i.imgur.com/L2MA0rb.png"
           projecturl="/footballApp"
         />
       </div>

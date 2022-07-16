@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-import watchlist from "../public/assets/projects/watchlist.png";
+// import watchlist from "../public/assets/projects/watchlist.png";
 const Watchlist = () => {
   return (
     <div className="w-full">
@@ -12,7 +12,7 @@ const Watchlist = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={watchlist}
+          src="https://i.imgur.com/Uz8KEVF.png"
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -34,8 +34,14 @@ const Watchlist = () => {
             corporis excepturi enim, officiis voluptatem dignissimos saepe
             asperiores necessitatibus, repellat, sint voluptate exercitationem!
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">DEMO</button>
-          <button className="px-8 py-2 mt-4 ">CODE</button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a href="https://62c439267e17d30447a25518--teal-naiad-3d55bd.netlify.app/">
+              DEMO
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4 ">
+            <a href="https://github.com/Abhi-4793/Movie-list-app">CODE</a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

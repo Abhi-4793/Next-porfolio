@@ -27,9 +27,9 @@ const About = () => {
         <div className=" relative flex items-center justify-center m-auto">
           <Image
             className="left-0 shadow-md shadow-gray-400 right-0 rounded-full w-full h-full   p-2 hover:scale-105 ease-in duration-300"
-            src="/../public/assets/profile.png"
-            width="200"
-            height="200"
+            src="https://i.imgur.com/W6YOUiV.jpg"
+            width="300"
+            height="300"
             alt="/"
           />
         </div>
