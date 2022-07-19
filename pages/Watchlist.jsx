@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-// import watchlist from "../public/assets/projects/watchlist.png";
+
 const Watchlist = () => {
   return (
     <div className="w-full">

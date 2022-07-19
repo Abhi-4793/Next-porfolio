@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-// import football from "../public/assets/projects/football_list.png";
 const property = () => {
   return (
     <div className="w-full">
