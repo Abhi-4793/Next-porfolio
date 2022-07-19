@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import Image from "next/image";
 import Main from "../Components/Main";
 import About from "../Components/About";
 import Skills from "../Components/Skills";
