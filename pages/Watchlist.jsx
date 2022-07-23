@@ -24,15 +24,19 @@ const Watchlist = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, excepturi? Qui numquam fugit facilis provident,
-            explicabo molestias reprehenderit est. Minus incidunt cum aliquam,
-            omnis deserunt blanditiis labore quia voluptatibus natus. Lorem
-            ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-            expedita animi voluptates quibusdam nemo itaque numquam doloremque
-            corporis excepturi enim, officiis voluptatem dignissimos saepe
-            asperiores necessitatibus, repellat, sint voluptate exercitationem!
+          <p className="leading-8 mt-3">
+            This is A Watchlist App where you can search Any movie and save to
+            your lists like if you want to watch movie later you can save it to
+            your Watchlist page by clicking on add to Watchlist and if you have
+            already watched the movie you can add it to your Watched page by
+            clicking add to watched and also if the movie is your favourite and
+            you want to save it for future refernce you can save it to you
+            favourite page by clicking heart icon and you can also move your
+            movie to between watchlist and watched and also remove it by going
+            to those pages and clicking the button which appear after hovering
+            over the movie.The Movie is loading through An TMDB API and
+            functionality are given by context API for the buttons and i have
+            also used React-router to keep the UI sync with url.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a href="https://62c439267e17d30447a25518--teal-naiad-3d55bd.netlify.app/">
