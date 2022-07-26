@@ -39,9 +39,7 @@ const Watchlist = () => {
             also used React-router to keep the UI sync with url.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href="https://62c439267e17d30447a25518--teal-naiad-3d55bd.netlify.app/">
-              DEMO
-            </a>
+            <a href="https://teal-naiad-3d55bd.netlify.app/">DEMO</a>
           </button>
           <button className="px-8 py-2 mt-4 ">
             <a href="https://github.com/Abhi-4793/Movie-list-app">CODE</a>

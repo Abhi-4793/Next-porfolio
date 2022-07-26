@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
@@ -18,16 +19,24 @@ const Main = () => {
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaLinkedin />
+              <a href="https://www.linkedin.com/in/abhinav-krishna-singh-0ab67a128/">
+                <FaLinkedin />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FaGithub />
+              <a href="https://github.com/Abhi-4793">
+                <FaGithub />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiOutlineMail />
+              <a href="mailto:abhinavkrishnapy2@gmail.com">
+                <AiOutlineMail />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <BsFillPersonLinesFill />
+              <a href="https://www.instagram.com/abhi_krish_singh/?hl=en">
+                <BsFillPersonLinesFill />
+              </a>
             </div>
           </div>
         </div>

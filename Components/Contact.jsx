@@ -34,16 +34,24 @@ const Contact = () => {
                 <p className="pt-8 uppercase">Connect With Me</p>
                 <div className="flex items-center justify-between py-4 ">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/abhinav-krishna-singh-0ab67a128/">
+                      <FaLinkedin />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
+                    <a href="https://github.com/Abhi-4793">
+                      <FaGithub />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
+                    <a href="mailto:abhinavkrishnapy2@gmail.com">
+                      <AiOutlineMail />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill />
+                    <a href="https://www.instagram.com/abhi_krish_singh/?hl=en">
+                      <BsFillPersonLinesFill />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -53,7 +61,7 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
