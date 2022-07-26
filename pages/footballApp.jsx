@@ -30,11 +30,10 @@ const property = () => {
             Laliga Real madrid is on top and Espanyol is on last. This is A
             React App with fetches The data from an Free API.
           </p>
-          <button
-            className="px-8 py-2 mt-4 mr-8"
-            href="https://62e0360eb097b500088ba587--musical-manatee-0c730a.netlify.app/"
-          >
-            DEMO
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a href="https://62e0360eb097b500088ba587--musical-manatee-0c730a.netlify.app/">
+              DEMO
+            </a>
           </button>
           <button className="px-8 py-2 mt-4 ">
             <a href="https://github.com/Abhi-4793/footballl-League-Standing">
